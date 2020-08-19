@@ -1,0 +1,1699 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0018)https://uzhack.ga/ -->
+<html lang="uz"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}</style>
+<style>
+.loader.active {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: .5s ease-in-out opacity, .005s linear visibility .5s;
+    transition: .5s ease-in-out opacity, .005s linear visibility .5s;
+}
+.loader {
+    background: #blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: .5s ease-in-out opacity,.005s linear visibility;
+    transition: .5s ease-in-out opacity,.005s linear visibility;
+}
+.loader {
+    background: rgb(30, 36, 39);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: .5s ease-in-out opacity, .005s linear visibility;
+    transition: .5s ease-in-out opacity, .005s linear visibility;
+}
+</style>
+<style>
+@font-face {
+font-family: "TitilliumWeb";
+src: url("fonts/Exo2-Regular.ttf");
+}
+
+@font-face {
+font-family: "TitilliumWebB";
+src: url("fonts/Exo2-SemiBold.ttf");
+}
+
+
+
+
+
+
+html{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,*::before, *::after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+
+
+.cf:before,.cf:after {
+	display: table;
+	content: "";
+}
+.cf:after {
+	clear: both;
+}
+
+
+/*=========tanasi===========*/
+
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+body{
+	font-family: TitilliumWebB, 'Maiandra GD', sans-serif;
+}
+
+/**/
+
+/*=========orab turuvchi element=========*/
+
+.wrapper{
+	max-width: 700px;
+	margin: 0 auto ;
+	background-color: #f1f3f4;
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+	border: 1px solid rgba(189,160,129);
+	border-radius: 6px 6px 0 0; 
+padding:0;
+}
+
+
+
+
+/*=================boshi=================*/
+
+.heder{
+	position: relative;
+	background-color: black;
+	border: 1px solid white;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+margin:0;
+}
+
+/*=================logo============*/
+
+
+.logo1{
+	margin: 5px auto;
+	width: 300px;
+}
+
+
+/*==============tepa-============*/
+
+
+.blok{
+
+	font-size: 14px;
+	background-color: black;
+	border-radius: 5px 5px 0 0; 
+	padding: 0;
+	margin: 0;
+	width: auto;
+}
+
+
+/*==========past-blok=============*/
+
+.blok1{
+	font-size: 14px;
+	background-color: black;
+	border-radius: 0 0 5px 5px; 
+	padding: 0;
+	padding-top: ;
+	margin: 0;
+	width: auto;
+
+}
+.nur1{
+	font-size: 14px;
+	background-color: #A0A0A0;
+	border-radius: 0 0 5px 5px; 
+	padding: 0;
+	padding-top: ;
+	margin: 0;
+	width: auto;
+
+}
+
+/*============tekst===================*/
+
+
+
+a{ text-decoration:none;}
+
+.read{
+	text-align: ;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+	color: rgba(189,160,129);
+	font-color: ;
+	margin: 0;
+    right: 25px;
+	/*font-family:'TitilliumWebB';*/
+}
+
+.txt{
+	position: absolute;
+	font-family: TitilliumWeb, TM,TMS,Square721 BT, MagistralC;
+	margin: 0px;
+	color: black;
+	font-weight: bold;
+	text-shadow: px rgba(0,0,0,0.3);
+	left: 50px;
+	padding-top: -3px;
+}
+
+/*==============media uchun============*/
+
+.mdk{
+	position: ;
+	opacity: 65%;
+	margin: 4px;
+	width:100px;
+	height: 100px;
+	border-radius:  20%;
+	border: 0.5px solid ; black;
+	box-shadow:  0 2px 0px 1px         rgba(189,160,129);
+-width: 100px;
+    height: 100px;
+    background-color: ;
+
+  
+}
+
+
+.mdk:hover{
+	opacity: 1;
+	transition: .6s ease-out;
+   transform: rotate(0deg);
+	background-color:;
+	font-variant-caps: ;
+   border: 0.7px solid rgba(251,209,169);
+	box-shadow:  0 2px 0.3px 0.3px rgba(0,0,0,0.9);
+}
+
+/*============aylana media uchun==========*/
+
+
+.mdk1{
+	position: relative;
+	opacity: 77%;
+	margin-right: auto;
+	width: 88px;
+	height: 88px;
+	border-radius:  50%;
+	border: 2px solid #fff;
+	box-shadow: 0 2px 2px 2px rgba(0,0,0,0.1);
+
+}
+
+
+.mdk1:hover{
+	opacity: 1;
+	transition: .6s ease all;
+	background-color: #000;
+	font-variant-caps: rgba(0,0,0,0.3)
+	
+}
+/*======mediani orab turuvchi element=======*/
+
+.media{
+
+	display: block;
+	position: relative;
+	display: block;
+	width: auto;
+	padding: 10px 0 20px 0;
+	margin: 0 auto;
+	border-radius: 5px;	
+	text-align: center;	
+	transition: all 0.5s ease;
+}
+
+
+.kb{
+	border-radius: 6px;
+	border:1px solid rgba(0,0,0,0.4);
+	box-shadow: 0 0 5px 2px rgba(0,0,0,0.2);
+}
+
+
+/*========musiqauchun klasslar======*/
+
+
+.mp3{
+
+	display: block;
+	background-color: #fff;
+	width: auto;
+	height: auto;
+	border-radius: 2px; 
+	padding: 0px;
+	margin: 3.5px;
+	box-shadow: 0 0 0 0.3px  rgba(0,0,0,0.3);
+	border: 0.6px dotted #343D46;
+}
+
+.mp3:hover{
+	opacity: 2;
+	transition: 2.5s ease all;
+	background-image: linear-gradient( to bottom, white, rgba(0,0,0,0.1), white);
+	font-variant-caps: 0px 1px 0px 1px black;
+}
+
+.music{
+	position: relative;
+	width:100%;
+	height:auto;
+	display: block;
+	padding: auto;
+	margin: auto;
+	background-color: white;
+	border: 0.5px solid rgba(255,190,155);
+	border-radius: 0.6px;
+}
+
+/*===================rasm=================*/
+
+
+.img{
+	margin: 2px;
+	width: 40px;
+	height: 40px;
+	border-radius:  50%;
+	border: 2px solid white;
+	box-shadow: 5px rgba(0,0,0,0.9);
+
+}
+
+.imgi{
+	margin: 2px;
+	width: 35px;
+	height: 35px;
+	border-radius:  0;
+	padding:10px;
+	box-shadow: 5px rgba(0,0,0,0.9);
+	vertical-align: middle;
+}
+
+
+
+
+
+
+.zone{
+	display: block;
+	background-color: rgba(233, 235, 236);
+	width: 100%;
+	height: auto;
+	border-radius: 0px; 
+	padding: 5px;
+	margin: 0 auto;
+	font-family: 'TitilliumWeb';
+	border: 2px solid #fffa;
+	text-align: center;
+}
+
+
+.warn{
+	padding: 10px;
+	margin: 10px;
+}
+
+.shared{
+	position: relative;
+	display: block;
+	background-color:  rgba(189,160,129);
+	width: 100%;
+	height: auto;
+	border-radius:0 0  3px 3px; 
+	padding: 5px;
+	margin: 1px;
+	box-shadow: 0 0 0 0.3px  rgba(0,0,0,0.3);
+	text-align: center;
+}
+
+
+.shared:hover{
+	opacity: 2;
+	transition: 2.5s ease all;
+	font-variant-caps: rgba(0,0,0,0.1);
+}
+
+
+.footer{
+	
+	display: block;
+	background-color: black;
+	width: auto;
+	height: 30px;
+	padding: 0px;
+	margin: 1px;
+	box-shadow: 0 0 0 0.3px  rgba(0,0,0,0.3);
+	text-align: center;
+
+}
+
+/*================kattalashadigan=============*/
+
+
+.m{
+	position:relative;
+	width: 75px;
+	height: 75px;
+	background: white;
+	border-radius: 15px;
+	-webkit-transition: width 0.1s , height 0.1s; 
+	transition: width 0.1s height 0.1s;
+	opacity: 77%;
+	margin-right: 5px;
+	padding:1.5px;
+	border: 1px solid   black ;
+	box-shadow: 0 1px 5px 1.5px; rgba(0,0,0,0.1);
+    text-decoration:none;
+
+
+}
+.m:hover {
+	opacity: 1;
+	transition: .7s ease all;
+	background-color: white;
+    border: 1px solid black;
+	font-variant-caps: rgba(198,160,129);
+   border-radius:12px;
+	box-shadow: 0 1px 4px 2px; rgba(198,169,129);
+}
+
+.m{
+		width: 75px;
+		height: 75px;
+	}
+
+	.m:hover{
+		width: 77px;
+		height: 77px;
+	}
+
+
+/*============link==========*/
+
+.rasmlink{
+	text-decoration: none;
+	font-size: 16px;
+	text-shadow: 1px 0.1px 1.1px rgba(189,160,129) ;
+	color:black;
+
+	font-family: 'TitilliumWeb';
+	/*text-solid: 1px black;*/
+}
+
+
+
+.rasmlink:hover{
+	color:rgba(189,160,129)  ;
+	opacity: 1;
+	transition: 1.2s ease all;
+	text-shadow: 1px 0.1px 1.2px rgba(0,0,0,0.99) ;
+}
+
+
+
+img{
+	vertical-align: middle;
+}
+
+
+.s{
+	position: relative;
+	opacity: 77%;
+	margin-right: auto;
+	width: 16px;
+	height: 16px;
+	border-radius:  50%;
+	border: 5px solid #000;
+	box-shadow: 0 2px 10px 10px; rgba(0,0,0,0.1);
+
+}
+
+
+.s:hover{
+	opacity: 1;
+	transition: .6s ease all;
+	background-color: red;
+	font-variant-caps: rgba(0,0,0,0.3);
+}
+
+
+
+
+
+
+
+
+/*******************************/
+
+@media only screen and (min-width: 375px) {
+	.mdk{
+		width: 70px;
+		height: 70px;
+	}
+
+	.read{
+		font-size: 17px;
+	}
+
+
+
+	.rasmlink{
+		font-size: 16px;
+	}
+
+
+}
+
+
+
+
+@media only screen and (min-width: 475px) {
+	.mdk{
+		width: 80px;
+		height: 80px;
+	}
+
+	
+
+	.m{
+		width: 85px;
+		height: 85px;
+	}
+
+	.m:hover{
+		width: 90px;
+		height: 90px;
+	}
+
+
+}
+
+.ya-share2, .ya-share2 * {
+    line-height: normal;
+    top: -20px;
+    left: 70px;}
+
+
+
+
+@media only screen and (min-width: 425px){
+
+
+.ya-share2, .ya-share2 * {
+    line-height: normal;
+    top: -20px;
+    left: 80px;}
+}
+
+
+
+@media only screen and (min-width: 320px){
+video{
+	width: 100%;
+}
+	.mp4{
+		width: 95%;
+	}
+}
+
+
+
+
+@media only screen and (min-width: 500px){
+video{
+	width: 100%;
+}
+	.mp4{
+		width: 90%;
+ 
+	}
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="https://uzhack.ga/icon.png">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZBGS7G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!--back-banner-->
+<!--top nav-->
+<!-- Rating Mail.ru counter -->
+<script type="text/javascript" async="" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/watch.js.Без названия"></script><script async="" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/analytics.js.Без названия"></script><script type="text/javascript" async="" id="topmailru-code" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/code.js.Без названия"></script><script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "3187095", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = "https://top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div>
+<img src="https://top-fwz1.mail.ru/counter?id=3187095;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" />
+</div></noscript>
+<!-- //Rating Mail.ru counter -->
+
+    
+    <meta content="width=device-width,minimum-scale=1.0" name="viewport">
+    <meta content="telephone=yes" name="format-detection">
+    <meta content="address=yes" name="format-detection">
+    <meta content="origin" name="referrer">
+    <meta content="translate" name="uzbek">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://uzhack.ga">
+<meta property="og:locale" content="uz_UZ">
+<meta property="og:site_name" content="uzhack.ga">
+<meta itemprop="name" content="UzHack.ga Ilmiy | Ommabop | Mukammal | Informatsion">
+<meta itemprop="description" content="O`zbekiston va Jahon yangiliklari va Turli xil texnologiyalar olami va Aqlbovar qilmas kashfiyotlar.">
+<meta itemprop="image" content="https://uzhack.ga/icon/icon.png">
+<link rel="alternate" type="application/rss+xml" title="RSS feed" href="https://uzhack.ga/rss">
+<link href="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/css2" rel="stylesheet">
+<link href="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/gus.css" rel="stylesheet">
+<link href="https://kunuz/assets/3fd338b8/css/vendor.css?v=1585935372" rel="stylesheet">
+<link href="https://kunuz/assets/3fd338b8/css/style.css?v=1597043567" rel="stylesheet">
+  <link href="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/fonts.css" rel="stylesheet"> <!-- End Google Tag Manager (noscript) -->
+ <noscript><meta content="0;url=/search?q=uzhack.ga&amp;rlz=1C1GGRV_ruUZ856UZ856&amp;sxsrf=ALeKk02WQKSbdKA19cNoFqVFElbaFPSZcQ:1597293404652&amp;gbv=1&amp;sei=XMM0X9q2J6WHwPAPlO-48AM" http-equiv="refresh"><style>table,div,span,p{display:none}</style><div style="display:block">Bir necha soniyalar mobaynida siz saytga yoʻnaltirilmasangiz, <a href="/search?q=uzhack.ga&amp;rlz=1C1GGRV_ruUZ856UZ856&amp;sxsrf=ALeKk02WQKSbdKA19cNoFqVFElbaFPSZcQ:1597293404652&amp;gbv=1&amp;sei=XMM0X9q2J6WHwPAPlO-48AM">shu yerni</a> bosing.</div></noscript>
+<style>
+.covid-banner {
+  width: 100%;
+  height: 250px;
+  background: url("../img/covid-banner.png") no-repeat center;
+  background-size: cover;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 30px;
+
+  &__title {
+    font-size: 44px;
+    font-weight: bold;
+    color: #ffffff;
+    max-width: 550px;
+    text-align: center;
+  }
+}
+
+.covid-call {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+
+  &__title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.02;
+    color: #074cb2;
+    max-width: 500px;
+    margin-bottom: 18px;
+  }
+
+  &__date {
+    font-size: 16px;
+    font-weight: 500;
+    color: #e1084d;
+  }
+
+  &__phone {
+    display: flex;
+    align-items: center;
+    width: 266px;
+    height: 88px;
+    border-radius: 63px;
+    box-shadow: 0 44px 92px 0 rgba(50, 67, 148, 0.3);
+    background-color: #ffffff;
+    padding: 6px;
+    position: relative;
+
+    &::after {
+      width: 46px;
+      height: 46px;
+      box-shadow: 0 0 54px 0 rgba(139, 195, 212, 0.74);
+      background-color: #ffffff;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transform: translate(50%, 50%);
+      content: "";
+      border-radius: 100px;
+      background-image: url("../img/old-typical-phone.svg");
+      background-size: 24px;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    img {
+      &:first-child {
+        width: 74px;
+        height: 74px;
+        border-radius: 100px;
+        object-fit: cover;
+        margin-right: 30px;
+      }
+
+      &:last-child {
+        width: 108px;
+        height: 54px;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+.covid-block {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(197, 197, 197, 0.8);
+  border-radius: 4px;
+  padding: 24px 30px;
+  margin-bottom: 20px;
+
+  &--big {
+    border: none;
+    padding: 0;
+
+    .covid-block__item {
+      width: auto;
+
+      .text {
+        padding-left: 28px;
+        margin-left: 14px;
+
+        span {
+          &:first-child {
+            font-size: 60px;
+            font-weight: 600;
+            color: #12245e;
+          }
+
+          &:last-child {
+            color: #000000;
+          }
+        }
+      }
+
+      .img {
+        width: 86px;
+        height: 86px;
+        background-color: rgba(7, 76, 178, 0.13);
+        border-radius: 100px;
+        background-size: 46px;
+      }
+
+      &:nth-child(1) {
+        padding-right: 80px;
+      }
+
+      &:nth-child(2) {
+        padding-right: 80px;
+      }
+    }
+
+    .covid-block__list {
+      flex: inherit;
+    }
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #2945AB;
+    padding-right: 100px;
+
+    .img {
+      width: 46px;
+      height: 46px;
+      content: "";
+      margin-right: 15px;
+      background: url("../img/virus.svg") no-repeat center;
+      background-size: contain;
+    }
+  }
+
+  &__list {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 270px;
+    display: flex;
+    align-items: center;
+
+    &:nth-child(1) {
+      padding-right: 20px;
+
+      .img {
+        background-image: url("../img/covid-i-1.svg");
+      }
+    }
+
+    &:nth-child(2) {
+      padding-right: 20px;
+
+      .img {
+        background-image: url("../img/covid-i-2.svg");
+      }
+    }
+
+    &:nth-child(3) {
+      .img {
+        background-image: url("../img/covid-i-3.svg");
+      }
+    }
+
+    .img {
+      width: 50px;
+      height: 50px;
+      content: "";
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 38px;
+    }
+
+    .text {
+      padding-left: 12px;
+      margin-left: 12px;
+      border-left: 1px solid rgba(197, 197, 197, 0.8);
+
+      span {
+        display: block;
+
+        &:first-child {
+          font-size: 16px;
+          color: #000000;
+        }
+
+        &:last-child {
+          color: #E1084D;
+          font-size: 16px;
+
+          b {
+            font-weight: 300;
+            font-size: 28px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.covid-statistics {
+  display: flex;
+  margin-bottom: 60px;
+
+  &__title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #0943a5;
+    margin-bottom: 30px;
+  }
+
+  &__content {
+    font-size: 18px;
+    line-height: 1.72;
+
+    p {
+      font-size: 18px;
+      line-height: 1.72;
+    }
+  }
+
+  .left-block {
+    padding-right: 30px;
+    width: 50%;
+  }
+
+  .right-block {
+    width: 50%;
+    background-color: rgba(216, 216, 216, 0.34);
+    padding: 20px;
+    position: relative;
+    &::after{
+      width: 100%;
+      height: 143px;
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+
+  &__table {
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-left: 1px solid rgba(0,0,0,.1);
+    max-height: 600px;
+    overflow: hidden;
+    overflow-y: auto;
+
+    .tr {
+      display: flex;
+    }
+
+    .td {
+      padding: 8px;
+      border-bottom: 1px solid rgba(0,0,0,.1);
+      border-right: 1px solid rgba(0,0,0,.1);
+
+      &:first-child {
+        flex: 1;
+      }
+
+      &:not(&:first-child) {
+        width: 20%;
+      }
+    }
+
+    .thead {
+      font-size: 10px;
+      text-transform: uppercase;
+      font-weight: 600;
+      background-color: #e8e8e8;
+    }
+
+    .tbody {
+      font-size: 12px;
+      font-weight: 500;
+      padding-bottom: 50px;
+
+      .country {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 20px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+.covid-steps{
+  display: flex;
+  margin-bottom: 60px;
+  .right-block{
+    width: 50%;
+    padding-top: 100px;
+  }
+  .left-block{
+    width: 50%;
+    padding-right: 30px;
+  }
+  &__img{
+    content: "";
+    width: 100%;
+    background: url("../img/covid-block-1.svg") no-repeat center;
+    background-size: contain;
+    height: 450px;
+  }
+  &__item{
+    display: flex;
+    padding-bottom: 50px;
+    position: relative;
+    &:not(:last-child){
+      &:after{
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        left: 20px;
+        top: 0;
+        background-color: #dfe3f3;
+        content: "";
+      }
+    }
+    .step{
+      z-index: 2;
+      width: 40px; min-width: 40px;
+      height: 40px;
+      color: #0556bf;
+      font-size: 16px;
+      font-weight: 600;
+      background-color: #dfe3f3;
+      border-radius: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .title{
+      font-size: 18px;
+      font-weight: 500;
+      padding-left: 66px;
+    }
+  }
+}
+
+.covid-faq{
+  display: flex;
+  margin-bottom: 60px;
+  .gray-btn{
+    width: 100%;
+    max-width: 440px;
+    margin-top: 10px;
+  }
+  .left-block{
+    width: 50%;
+    padding-right: 30px;
+    padding-top: 100px;
+  }
+  .right-block{
+    width: 50%;
+  }
+  &__img{
+    content: "";
+    width: 100%;
+    background: url("../img/covid-block-2.svg") no-repeat center;
+    background-size: contain;
+    height: 550px;
+  }
+  &__item{
+    margin-bottom: 40px;
+    .toggle-btn{
+      width: 40px; min-width: 40px;
+      height: 40px;
+      background: url("../img/plus-ellipse.svg") no-repeat center;
+      background-size: contain;
+      content: "";
+      cursor: pointer;
+    }
+    .head{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .title{
+      font-size: 20px;
+      font-weight: 600;
+      color: #3a3f46;
+      padding-right: 30px;
+    }
+    .content{
+      font-size: 18px;
+      line-height: 1.78;
+      color: #424850;
+      display: none;
+    }
+  }
+}
+.gray-btn{
+  border-radius: 8px;
+  background-color: rgba(41, 69, 171, 0.1);
+  font-size: 14px;
+  font-weight: 600;
+  color: #0360ca;
+  padding: 17px 50px;
+  text-align: center;
+  transition: .2s ease;
+  &:hover{
+    background-color: rgba(41, 69, 171, 0.2);;
+  }
+}
+
+.big-title{
+  font-size: 36px;
+  font-weight: bold;
+  color: #074cb2;
+  margin-bottom: 30px;
+}
+
+.covid-news{
+  .gray-btn{
+    width: 100%;
+    max-width: 440px;
+    margin-top: 30px;
+  }
+}
+</style>
+      <title>
+       UzHack.ga Ilmiy | Ommabop | Mukammal | Informatsion                         
+      </title>
+<script src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/context.js.Без названия"></script><link rel="preconnect" href="https://yastatic.net/"><link rel="preconnect" href="https://avatars.mds.yandex.net/"><link rel="preconnect" href="https://mc.yandex.ru/"><script charset="utf-8" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/8d2d94276781eb8933c5.js.Без названия"></script><script id="https://an.yandex.ru/partner-code-bundles/12035/context_static.js" async="" importance="high" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/context_static.js.Без названия" crossorigin="anonymous"></script>
+<script type="text/javascript" async="" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/watch.js.Без названия"></script>
+<script async="" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/analytics.js.Без названия"></script>
+<script src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/loader.js.Без названия" crossorigin="anonymous"></script><link rel="preload" href="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/banners.js.Без названия" as="script"><script type="text/javascript" async="" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/banners.js.Без названия" charset="utf-8" crossorigin="anonymous"></script><link rel="preload" href="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/context.js.Без названия" as="script"><link rel="preconnect" href="https://ads.adfox.ru/">
+<link rel="preload" href="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/banners.js(1).Без названия" as="script">
+<script type="text/javascript" async="" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/banners.js(1).Без названия" charset="utf-8" crossorigin="anonymous"></script>
+<link rel="preload" href="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/context.js.Без названия" as="script">
+<link rel="preconnect" href="https://ads.adfox.ru/">
+<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-28543543-1', 'auto');
+      ga('send', 'pageview');
+
+  </script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+      (function (d, w, c) {
+          (w[c] = w[c] || []).push(function() {
+              try {
+                  w.yaCounter22022599 = new Ya.Metrika({
+                      id:22022599,
+                      clickmap:true,
+                      trackLinks:true,
+                      accurateTrackBounce:true,
+                      webvisor:true
+                  });
+              } catch(e) { }
+          });
+
+          var n = d.getElementsByTagName("script")[0],
+              s = d.createElement("script"),
+              f = function () { n.parentNode.insertBefore(s, n); };
+          s.type = "text/javascript";
+          s.async = true;
+          s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+          if (w.opera == "[object Opera]") {
+              d.addEventListener("DOMContentLoaded", f, false);
+          } else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
+
+
+  </script>
+<noscript><div><img src="https://mc.yandex.ru/watch/22022599" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+    <style type="text/css" class="mb-style-tag">.aNLP4g6{width:100%;height:inherit;min-height:inherit;max-height:inherit}.a2HoN3S{position:relative;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-moz-box-orient:horizontal;-moz-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}.a33haaT{position:absolute;width:100%;top:50%;text-align:center;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.a3ylgQB{margin-left:7px}.a3yEaZV{position:relative}.aUq2MkB{-webkit-transition:stroke-dashoffset .1s linear;-moz-transition:stroke-dashoffset .1s linear;transition:stroke-dashoffset .1s linear}.ahQNVZh{position:relative;height:100%;width:100%}.a23oZjO,.a399WUL{position:absolute;top:0;left:0;width:100%;height:100%}.a2YvqCx{z-index:4;font-weight:300;left:0;width:100%;line-height:50px;background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.4)),to(transparent));background-image:-webkit-linear-gradient(top,rgba(0,0,0,.4),transparent);background-image:-moz-linear-gradient(top,rgba(0,0,0,.4) 0,transparent 100%);background-image:linear-gradient(-180deg,rgba(0,0,0,.4),transparent);color:#fff;font-size:12px;font-family:sans-serif}.a2YvqCx,.aQ8_Cb6{position:absolute;top:0;height:50px;text-align:center}.aQ8_Cb6{right:0;cursor:pointer;width:50px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Ccircle opacity='.2' cx='20' cy='20' r='13.5'/%3E%3Cpath fill='%23fff' d='M27 13.7l-.7-.7-6.3 6.3-6.3-6.3-.7.7 6.3 6.3-6.3 6.3.7.7 6.3-6.3 6.3 6.3.7-.7-6.3-6.3z'/%3E%3C/svg%3E") no-repeat 50%}.a2g65Ed,.a3nCpxm{display:none}.a3nCpxm{position:absolute;left:0;top:0;cursor:pointer;text-align:center;height:50px;width:50px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='13.5' opacity='.2'/%3E%3Cpath d='M24 16.4c1.4.6 2.4 2 2.4 3.5 0 1.6-1 2.9-2.4 3.5v-1.8c.5-.4.8-1 .8-1.7 0-.6-.3-1.2-.8-1.7v-1.8zm-10 1.1h3l5-4v13l-5-4h-3v-5z' fill='%23FFF'/%3E%3C/svg%3E") no-repeat 50%;z-index:2}.a1sF1pV{background:url("data:image/svg+xml;charset=utf-8,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='13.5' opacity='.2'/%3E%3Cpath d='M26.7 20.4l2.3-2.3-1.1-1.1-2.3 2.3-2.3-2.3-1.2 1.1 2.3 2.3-2.3 2.3 1.2 1.2 2.3-2.3 2.3 2.3 1.1-1.2-2.3-2.3zM13 17.5h3l5-4v13l-5-4h-3v-5z' fill='%23FFF'/%3E%3C/svg%3E") no-repeat 50%}.a1CNij8{height:30px;width:30px}.a1CNij8,.a3Zr4hr{display:inline-block;vertical-align:middle}.a3Zr4hr{margin-left:5px}.a3sabH0{z-index:3;position:absolute;text-align:center;cursor:pointer;left:50%;bottom:20px}.a1bEMYV{font-weight:300;text-decoration:none;display:inline-block;background:#fff;padding:9px 25px;min-height:27px;line-height:1.3;-webkit-box-shadow:0 2px 4px 0 rgba(0,0,0,.18);-moz-box-shadow:0 2px 4px 0 rgba(0,0,0,.18);box-shadow:0 2px 4px 0 rgba(0,0,0,.18);font-size:20px;color:#000;font-family:sans-serif;position:relative;left:-50%}.a3Vme3B{display:none}.a1oc4Rf{position:fixed;top:0;left:-100%;width:100%;bottom:0;background-color:#000;background-color:rgba(0,0,0,.7)}.a2gWjHZ{left:0}.a3PsKFE{position:absolute;z-index:2;display:none}.a3PsKFE,.aJfTZFb{width:100%;height:100%}.aJfTZFb{text-align:center;display:block;position:relative;z-index:1}.aJfTZFb:before{content:""}.aJfTZFb:before,.aSuBPcJ{display:inline-block;height:100%;vertical-align:middle}.aSuBPcJ{width:100%;max-width:100%;max-height:100%;background:50% 50% no-repeat;-moz-background-size:contain;background-size:contain}.a2eubvh{display:block;background-repeat:no-repeat;background-position:50%}.a1SqbHU,.a2dytgO,.a2eubvh{height:100%;width:100%}.a2dytgO{max-height:100vh;max-width:100vw}.as3pe3P{position:relative;overflow:hidden;width:100%}.a1Z-vTi,.as3pe3P,.as3pe3P yatag{display:block}.a1Z-vTi{position:relative;overflow:hidden;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.a1SzcLD{position:absolute;z-index:1;top:0;left:0;right:0;bottom:0;overflow:hidden;clip:rect(0,auto,auto,0)}.a2_C0R2{position:fixed;z-index:-1;top:0;left:0;width:100%;height:100%;height:100vh;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);transform:translateZ(0)}.a2_C0R2.a3BrtOL{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}.aH5YoYc{position:absolute;z-index:1;top:0;will-change:top,left,transform;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden}.a3Tf9Xw{margin:0 auto;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);transform:translateZ(0)}.a2TI5Ok{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%}.adYQemp{position:relative;overflow:hidden}.a3KQvJt{position:relative;margin:0 auto}.apSNGNe{position:absolute;bottom:0;z-index:1;width:100%;line-height:20px;text-align:center;color:#fff;background:#000}.a164RL2 .a1dhZUT{margin:0 0 20px}.ajboYyY .a3KQvJt{padding:0 0 20px}.aT7HFxQ,.aTUfuDC{position:relative;width:100%;height:100%}.aTUfuDC{overflow:hidden}.a3HlA6f{position:relative;left:0;top:0}.a3lwYsN{float:left;background:50% no-repeat;-moz-background-size:contain;background-size:contain}.a2GGguX,.a2I4lnp{position:absolute;z-index:1;background-repeat:no-repeat;background-position:50% 50%;cursor:pointer}.aEIdaQB .a2GGguX,.aEIdaQB .a2I4lnp{height:36px;width:100%}.a1SOfIy .a2GGguX,.a1SOfIy .a2I4lnp{height:100%;width:36px}.a1SOfIy .a2GGguX{right:0}.a1SOfIy:hover .a2GGguX{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='9' height='16' viewBox='0 0 9 16' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3E%3Cpath stroke='%23000' stroke-width='1.4' d='M1 1l7 7-7 7 7-7-7-7'/%3E%3C/svg%3E")}.aEIdaQB .a2GGguX{bottom:0}.aEIdaQB:hover .a2GGguX{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='9' viewBox='0 0 16 9' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3E%3Cpath stroke='%23000' stroke-width='1.4' d='M1 1l7 7 7-7-7 7-7-7'/%3E%3C/svg%3E")}.a1SOfIy:hover .a2I4lnp{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='9' height='16' viewBox='0 0 9 16' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3E%3Cpath stroke='%23000' stroke-width='1.4' d='M8 1L1 8l7 7-7-7 7-7'/%3E%3C/svg%3E")}.aEIdaQB:hover .a2I4lnp{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='9' viewBox='0 0 16 9' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3E%3Cpath stroke='%23000' stroke-width='1.4' d='M1 8l7-7 7 7-7-7-7 7'/%3E%3C/svg%3E")}.a2uCUAU{position:absolute;height:0;bottom:18px;left:0;width:100%;text-align:center}.aEIdaQB .a2uCUAU{right:0;top:0;height:100%;width:18px;bottom:auto;left:auto;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}.a_Cdy_t{display:inline-block;padding:5px;cursor:pointer}.a_Cdy_t:after{content:"";display:block;width:8px;height:8px;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;background:#f2f2f2}.a6Q1qRh:after{background:#d2d2d2}</style><style type="text/css" class="mb-style-tag">.aNLP4g6{width:100%;height:inherit;min-height:inherit;max-height:inherit}.a2HoN3S{position:relative;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-moz-box-orient:horizontal;-moz-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}.a33haaT{position:absolute;width:100%;top:50%;text-align:center;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.a3ylgQB{margin-left:7px}.a3yEaZV{position:relative}.aUq2MkB{-webkit-transition:stroke-dashoffset .1s linear;-moz-transition:stroke-dashoffset .1s linear;transition:stroke-dashoffset .1s linear}.ahQNVZh{position:relative;height:100%;width:100%}.a23oZjO,.a399WUL{position:absolute;top:0;left:0;width:100%;height:100%}.a2YvqCx{z-index:4;font-weight:300;left:0;width:100%;line-height:50px;background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.4)),to(transparent));background-image:-webkit-linear-gradient(top,rgba(0,0,0,.4),transparent);background-image:-moz-linear-gradient(top,rgba(0,0,0,.4) 0,transparent 100%);background-image:linear-gradient(-180deg,rgba(0,0,0,.4),transparent);color:#fff;font-size:12px;font-family:sans-serif}.a2YvqCx,.aQ8_Cb6{position:absolute;top:0;height:50px;text-align:center}.aQ8_Cb6{right:0;cursor:pointer;width:50px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Ccircle opacity='.2' cx='20' cy='20' r='13.5'/%3E%3Cpath fill='%23fff' d='M27 13.7l-.7-.7-6.3 6.3-6.3-6.3-.7.7 6.3 6.3-6.3 6.3.7.7 6.3-6.3 6.3 6.3.7-.7-6.3-6.3z'/%3E%3C/svg%3E") no-repeat 50%}.a2g65Ed,.a3nCpxm{display:none}.a3nCpxm{position:absolute;left:0;top:0;cursor:pointer;text-align:center;height:50px;width:50px;background:url("data:image/svg+xml;charset=utf-8,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='13.5' opacity='.2'/%3E%3Cpath d='M24 16.4c1.4.6 2.4 2 2.4 3.5 0 1.6-1 2.9-2.4 3.5v-1.8c.5-.4.8-1 .8-1.7 0-.6-.3-1.2-.8-1.7v-1.8zm-10 1.1h3l5-4v13l-5-4h-3v-5z' fill='%23FFF'/%3E%3C/svg%3E") no-repeat 50%;z-index:2}.a1sF1pV{background:url("data:image/svg+xml;charset=utf-8,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='13.5' opacity='.2'/%3E%3Cpath d='M26.7 20.4l2.3-2.3-1.1-1.1-2.3 2.3-2.3-2.3-1.2 1.1 2.3 2.3-2.3 2.3 1.2 1.2 2.3-2.3 2.3 2.3 1.1-1.2-2.3-2.3zM13 17.5h3l5-4v13l-5-4h-3v-5z' fill='%23FFF'/%3E%3C/svg%3E") no-repeat 50%}.a1CNij8{height:30px;width:30px}.a1CNij8,.a3Zr4hr{display:inline-block;vertical-align:middle}.a3Zr4hr{margin-left:5px}.a3sabH0{z-index:3;position:absolute;text-align:center;cursor:pointer;left:50%;bottom:20px}.a1bEMYV{font-weight:300;text-decoration:none;display:inline-block;background:#fff;padding:9px 25px;min-height:27px;line-height:1.3;-webkit-box-shadow:0 2px 4px 0 rgba(0,0,0,.18);-moz-box-shadow:0 2px 4px 0 rgba(0,0,0,.18);box-shadow:0 2px 4px 0 rgba(0,0,0,.18);font-size:20px;color:#000;font-family:sans-serif;position:relative;left:-50%}.a3Vme3B{display:none}.a1oc4Rf{position:fixed;top:0;left:-100%;width:100%;bottom:0;background-color:#000;background-color:rgba(0,0,0,.7)}.a2gWjHZ{left:0}.a3PsKFE{position:absolute;z-index:2;display:none}.a3PsKFE,.aJfTZFb{width:100%;height:100%}.aJfTZFb{text-align:center;display:block;position:relative;z-index:1}.aJfTZFb:before{content:""}.aJfTZFb:before,.aSuBPcJ{display:inline-block;height:100%;vertical-align:middle}.aSuBPcJ{width:100%;max-width:100%;max-height:100%;background:50% 50% no-repeat;-moz-background-size:contain;background-size:contain}.a2eubvh{display:block;background-repeat:no-repeat;background-position:50%}.a1SqbHU,.a2dytgO,.a2eubvh{height:100%;width:100%}.a2dytgO{max-height:100vh;max-width:100vw}.as3pe3P{position:relative;overflow:hidden;width:100%}.a1Z-vTi,.as3pe3P,.as3pe3P yatag{display:block}.a1Z-vTi{position:relative;overflow:hidden;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.a1SzcLD{position:absolute;z-index:1;top:0;left:0;right:0;bottom:0;overflow:hidden;clip:rect(0,auto,auto,0)}.a2_C0R2{position:fixed;z-index:-1;top:0;left:0;width:100%;height:100%;height:100vh;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);transform:translateZ(0)}.a2_C0R2.a3BrtOL{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}.aH5YoYc{position:absolute;z-index:1;top:0;will-change:top,left,transform;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden}.a3Tf9Xw{margin:0 auto;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);transform:translateZ(0)}.a2TI5Ok{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%}.adYQemp{position:relative;overflow:hidden}.a3KQvJt{position:relative;margin:0 auto}.apSNGNe{position:absolute;bottom:0;z-index:1;width:100%;line-height:20px;text-align:center;color:#fff;background:#000}.a164RL2 .a1dhZUT{margin:0 0 20px}.ajboYyY .a3KQvJt{padding:0 0 20px}.aT7HFxQ,.aTUfuDC{position:relative;width:100%;height:100%}.aTUfuDC{overflow:hidden}.a3HlA6f{position:relative;left:0;top:0}.a3lwYsN{float:left;background:50% no-repeat;-moz-background-size:contain;background-size:contain}.a2GGguX,.a2I4lnp{position:absolute;z-index:1;background-repeat:no-repeat;background-position:50% 50%;cursor:pointer}.aEIdaQB .a2GGguX,.aEIdaQB .a2I4lnp{height:36px;width:100%}.a1SOfIy .a2GGguX,.a1SOfIy .a2I4lnp{height:100%;width:36px}.a1SOfIy .a2GGguX{right:0}.a1SOfIy:hover .a2GGguX{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='9' height='16' viewBox='0 0 9 16' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3E%3Cpath stroke='%23000' stroke-width='1.4' d='M1 1l7 7-7 7 7-7-7-7'/%3E%3C/svg%3E")}.aEIdaQB .a2GGguX{bottom:0}.aEIdaQB:hover .a2GGguX{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='9' viewBox='0 0 16 9' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3E%3Cpath stroke='%23000' stroke-width='1.4' d='M1 1l7 7 7-7-7 7-7-7'/%3E%3C/svg%3E")}.a1SOfIy:hover .a2I4lnp{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='9' height='16' viewBox='0 0 9 16' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3E%3Cpath stroke='%23000' stroke-width='1.4' d='M8 1L1 8l7 7-7-7 7-7'/%3E%3C/svg%3E")}.aEIdaQB:hover .a2I4lnp{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='9' viewBox='0 0 16 9' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3E%3Cpath stroke='%23000' stroke-width='1.4' d='M1 8l7-7 7 7-7-7-7 7'/%3E%3C/svg%3E")}.a2uCUAU{position:absolute;height:0;bottom:18px;left:0;width:100%;text-align:center}.aEIdaQB .a2uCUAU{right:0;top:0;height:100%;width:18px;bottom:auto;left:auto;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}.a_Cdy_t{display:inline-block;padding:5px;cursor:pointer}.a_Cdy_t:after{content:"";display:block;width:8px;height:8px;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;background:#f2f2f2}.a6Q1qRh:after{background:#d2d2d2}</style></head>
+    <body>
+      <script src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/angular.min.js.Без названия">
+      </script>
+      <link rel="stylesheet" href="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/bootstrap.min.css">    <script src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/jquery.min.js.Без названия">    </script>                  
+    <script src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/bootstrap.min.js.Без названия">
+</script>
+<font style="font-family: &#39;Lemonada&#39;, cursive;">
+    <br>
+<br>
+<nav class="navbar navbar-default">  <div class="container-fluid">    <!-- Brand and toggle get grouped for better mobile display -->    <div class="navbar-header">      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">        <span class="sr-only">Toggle navigation</span>        <span class="icon-bar"></span>        <span class="icon-bar"></span>        <span class="icon-bar"></span>      </button>      <a class="navbar-brand" href="https://uzhack.ga/#"><background src="jpg.jpg"></background></a><code><b>NurHack</b></code>  <img src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/oleg.png" width="190" height="55">  </div>    <!-- Collect the nav links, forms, and other content for toggling -->    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">      <ul class="nav navbar-nav">        <li class="active"><a href="https://uzhack.ga/login">Kirish<span class="sr-only">(current)</span></a></li>        <li><a href="https://uzhack.ga/signin">Ro`yhatdan o`tish</a></li>        <li class="dropdown">          <a href="https://uzhack.ga/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Yana <span class="caret"></span></a>          <ul class="dropdown-menu">            <li><a href="https://uzhack.ga/music">Musiqa</a></li>            <li><a href="https://uzhack.ga/video">Video player</a></li>            <li><a href="https://uzhack.ga/Game.html">O`yin ( beta )</a></li>            <li role="separator" class="divider"></li>            <li><a href="https://uzhack.ga/audio">Audio</a></li>            <li role="separator" class="divider"></li>            <li><a href="https://uzhack.ga/photo">Rasmlar</a></li>          </ul>        </li>      </ul>      <form class="navbar-form navbar-left" role="search">        <div class="form-group">          <input type="text" class="form-control" placeholder="Yozing biz izlaymiz...">        </div>        <button type="submit" class="btn btn-default">Izlang</button>      </form>      <ul class="nav navbar-nav navbar-right">        <li><a href="https://uzhack.ga/time">Onlayn soat</a></li>        <li class="dropdown">          <a href="https://uzhack.ga/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Yana<span class="caret"></span></a>          <ul class="dropdown-menu">            <li><a href="https://uzhack.ga/telegram">Telegram</a></li>            <li><a href="https://uzhack.ga/youtube">Youtube</a></li>            <li><a href="https://uzhack.ga/about">Biz haqimizda...</a></li>            <li role="separator" class="divider"></li>            <li><a href="https://telegram.me/nurhack">Admin</a></li>          </ul>        </li>      </ul>    </div>
+
+<style>
+.header {
+    position: fixed;
+    height: 50px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+.header {
+    background: #0486cc;
+    background: linear-gradient(to top, #0486cc, #0c9dd5);
+    color: #fff;
+    border-bottom: 0px solid #fd0563;
+    padding: 10px 5px;
+}
+</style>
+<style>
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    background-color: #fff;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+body {
+    font-family: 'Exo 2', sans-serif;
+    background-color: #F1F8FF;
+    margin: 0;
+}
+background-color:rgb(255, 255, 255);
+display:block;
+font-family:"Exo 2", sans-serif;
+height:625px;
+left:0px;
+overflow-y:hidden;
+position:fixed;
+top:0px;
+transition-delay:0s;
+transition-duration:0.5s;
+transition-property:all;
+transition-timing-function:ease;
+width:789px;
+z-index:1;
+Rendered Fonts
+Arial—Local file(29 glyphs)
+</style><div class="header">
+
+</div>
+<ul class="teams-logo-list nav-just">
+            <li>
+            <a href="https://uzhack.ga/uzbek">
+                <img src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/uzbekistan.png" alt="O`zbekiston" title="O`zbekiston">
+            </a>
+        </li>
+  <li>
+            <a href="https://uzhack.ga/russia">
+                <img src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/russia.png" alt="Rossiya" title="Rossiya">
+            </a>
+        </li>
+            <li>
+            <a href="https://uzhack.ga/usa">
+                <img src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/united_states.png" alt="AQSh" title="AQSh">
+            </a>
+        </li>
+  <li>
+            <a href="https://uzhack.ga/turkey">
+                <img src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/turkey.png" alt="Turkiya" title="Turkiya">
+            </a>
+        </li>
+           </ul>
+
+
+
+<iframe frameborder="0" width="100%" height="90px" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/QLHK6g.html"></iframe>
+
+ 
+<div class="loader">
+<img src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/oleg.png" alt="" title="Loading...">
+
+</div>
+ <center> <div class="btn-group">
+    <button type="button" class="btn btn-danger">
+    Tez kunda Super priz...
+    </button>
+    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="caret">
+      </span>
+      <span class="sr-only">
+        Toggle Dropdown
+      </span>
+    </button>
+    <ul class="dropdown-menu">
+      <li>
+<a href="https://uzhack.ga/nurhack.html">
+NurHack Uz
+        </a>
+      </li>
+      <li>
+<a href="https://uzhack.ga/kun">
+NurHack Uz
+        </a>
+      </li>
+      <li>
+        <a href="https://uzhack.ga/#">
+          Something else here
+        </a>
+      </li>
+      <li role="separator" class="divider">
+      </li>
+      <li>
+        <a href="https://uzhack.ga/#">
+          Separated link
+        </a>
+      </li>
+</ul>
+</div>
+</center>
+    <style>
+        .coronavirus-table .list-gr-item, .list-gr-item span{
+            font-size: 14px;
+        }
+        .coronavirus-table .list-gr-item{
+            padding-left: 2px;
+            padding-right: 2px;
+            font-weight: bold;
+        }
+        .coronavirus-table .list-gr-item span{
+            color: red;
+        }
+        .coronavirus-table .aside-slug a{
+            padding-bottom: 0px;
+        }
+        .panel-danger>.panel-heading {
+            color: #fff;
+            background-image: -webkit-gradient(linear,left top,left bottom,from(#ff1a1a),color-stop(#ff2728),color-stop(#ff3333),color-stop(#ff4141),to(#fb3a3a));
+            background-image: -webkit-gradient(linear,left top,left bottom,from(#ff1a1a),color-stop(#ff2728),color-stop(#ff3333),color-stop(#ff4141),to(#fb3a3a));
+            background-image: -webkit-linear-gradient(top,#ff1a1a,#ff2728,#ff3333,#ff4141,#fb3a3a);
+            background-image: -o-linear-gradient(top,#ff1a1a,#ff2728,#ff3333,#ff4141,#fb3a3a);
+            background-image: linear-gradient(to bottom,#ff1a1a,#ff2728,#ff3333,#ff4141,#fb3a3a);
+            border-color: #fb3b3b;
+        }
+        #time_widget_c{
+            text-align: center;
+            font-size: 16px;
+            color: #fff;
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+    </style>
+
+    <script>
+        Number.prototype.pad = function(n) {
+            for (var r = this.toString(); r.length < n; r = 0 + r);
+            return r;
+        };
+
+        function updateClock() {
+            var now = new Date();
+            var
+                sec = now.getSeconds(),
+                min = now.getMinutes(),
+                hou = now.getHours(),
+                mo = now.getMonth() + 1,
+                dy = now.getDate(),
+                yr = now.getFullYear();
+            var corr = hou.pad(2) + ':' + min.pad(2) + ':' + sec.pad(2) + ' ' + dy.pad(2) + '.' + mo.pad(2) + '.' + yr;
+            document.getElementById('time_widget_c').firstChild.nodeValue = corr;
+        }
+
+        function initClock() {
+            updateClock();
+            window.setInterval("updateClock()", 1000);
+        }
+        initClock();
+    </script>
+
+                <div class="panel panel-danger coronavirus-table">
+        <!-- data -->
+        <div class="panel-heading" style="text-align: center;padding: 10px 8px;">
+            <a href="https://uzhack.ga/uz-coronavirus/static" title="Ўзбекистон бўйича коронавирус статистикаси онлайн" style="color: white;font-size: 15px;text-transform: uppercase;">
+                <strong>O`zbekiston bo`yicha Koronavirus statistikasi...</strong>
+            </a>
+            <a href="https://uzhack.ga/uz-coronavirus/static" title="O`zbekiston Virus epidemiyasi haqida online statistika...">
+                <p id="time_widget_c_u" class="time_widget_c">20:54:46 15.08.2020</p>
+            </a>
+        </div>
+        <div class="panel-body">
+            <ul class="list-gr clearfix">
+                <li class="list-gr-item">Kasallanganlar : <span>34 017</span></li>
+                <li class="list-gr-item">Sog`ayganlar soni : <span>28 661</span></li>
+                <li class="list-gr-item">Vafot etganlar : <span>221</span></li>
+            </ul>
+            <div class="aside-slug">
+                <a href="https://uzhack.ga/uz-coronavirus/static" title="O`zbekiston bo`yicha Koronavirus statistikasi..." style="color: red;font-size: 13px;">«Batafsil:»</a>
+            </div>
+        </div>
+    </div>
+
+<marquee style=" height: 35px;
+ line-height: 35px;
+ color: #F5FFFA;
+ border-radius: 16px;
+ font-size: 20px;
+ font-weight: bold;
+ background: url(&#39;https://uzhack.ga/img/body.png&#39;);" behavior="alternate" direction="left"><span> <img src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/uyda-qoling.png"><img src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/stay-home.png"> </span> </marquee>
+
+    <style type="text/css">
+        .time_widget_c{
+            text-align: center;
+            font-size: 16px;
+            color: #fff;
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function updateClockU() {
+            var now = new Date();
+            var
+                sec = now.getSeconds(),
+                min = now.getMinutes(),
+                hou = now.getHours(),
+                mo = now.getMonth() + 1,
+                dy = now.getDate(),
+                yr = now.getFullYear();
+            var corr = hou.pad(2) + ':' + min.pad(2) + ':' + sec.pad(2) + ' ' + dy.pad(2) + '.' + mo.pad(2) + '.' + yr;
+            document.getElementById('time_widget_c_u').firstChild.nodeValue = corr;
+        }
+
+        function initClockU() {
+            updateClockU();
+            window.setInterval("updateClockU()", 1000);
+        }
+        initClockU();
+    </script>
+
+
+
+                
+                    
+                <br>
+
+
+
+
+<div style="text-align: up-right;position: fixed;z-index:99999;bottom: 0;center: 0%; background:url(&#39;img/footer.png&#39; width:100 height:200);cursor: pointer;line-height: 0;display:block !important;"><ul class="nav nav-tabs">
+ <li role="presentation" class="active"><a href="https://uzhack.ga/message/uz">Xabarlar</a></li>
+  <li role="presentation" class="active"><a href="https://uzhack.ga/world">Jahon</a></li>
+  <li role="presentation" class="active"><a href="https://uzhack.ga/uz-coronavirus">Virus</a></li>
+ <li role="presentation" class="active"><a href="https://uzhack.ga/rss">RSS</a></li>
+</ul></div>
+<br>
+<blockquote>
+
+<div id="uxs_c303cd889f9d9405e8fa35d0" class="uxs-wrapper" style="z-index: 999; position: fixed; cursor: pointer; text-align: right; right: 0px; top: 50%; transform: translateY(-50%);"><a href="https://uzhack.ga/phone"><img src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/oleg.png" width="45" style="width: 45px !important; height: auto;"></a></div>
+
+</blockquote>
+
+
+<div class="panel panel-danger coronavirus-table">
+        <!-- data -->
+        <div class="panel-heading" style="text-align: center;padding: 10px 8px;">
+            <a href="https://uzhack.ga/uz-coronavirus/static" title="Ўзбекистон бўйича коронавирус статистикаси онлайн" style="color: white;font-size: 15px;text-transform: uppercase;">
+                <strong>Premyera haqida to`liq ma`lumot <br>ishlab chiqaruvchi :<br> Ism : Doniyor<br> Nick : Doxxim<br>Qo`shiq nomi : Telbalarcha<br>Qo`shiq davomiyligi : <code> 3:40 </code>soniya<br>Ishlab chiqarilgan sanasi : <code>2020 yil </code><br>Serverga joylash vaqti : 2020 yil 15-avgust soat :   
+ 14:33 <br>Turi : <code>mp3/audio</code><br>Lavozimi : <code>Premyera</code><br>Premyera Tugash vaqti : <code>2020-yil  16-avgust  soat : 17:00</code></strong>
+            </a>
+        </div>
+<br>
+<div class="nur1">	
+
+			<p class="read">
+				
+</p><center> <div class="blok1"> 
+				<div class="read">
+					
+					<center><font color="black"><a name="premyera">© UzHack.ga Saytida </a> <br>👇<br><a href="http://fileuzhack.ga/music/music.mp3">🔊Premyera...🎵</a></font></center><font color="black">
+				</font></div><font color="black">
+			</font></div></center><font color="black"> <center><div class="main-block">
+<div class="title5"><h1><center>Doxxim <br>Telbalarcha</center>
+</h1></div>
+
+
+
+<center><div class="tgme_page_photo">
+  <a href="tg://resolve?domain=uzhackga"><img class="tgme_page_photo_image" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/hTBUo9lAPEg8Fdx_zl9RxNreH5TbKMAUgykRmGfmiv6oaoijCwRmA-VeXooHdLyBfxvFv4mNz07DOfPp4vQ_HEuP5XOMe_SoMTp-eIXYE1wwrlJOVUXCYtxM97bzCVxSh9ia8DGEMgPYm8I9qMhFj94_H1nc27h43GW78Z91bu__S0st.jpg"></a>
+</div>
+
+
+
+
+
+
+
+<br>
+<br>
+<code>🎧Musiqa ijro etilishi uchun🎧<br>⏱ 3 soniya kuting... ⏱</code>
+<br>
+<style>
+.title5 {
+    background: #fff;
+    padding: 15px 10px;
+    color: #4c4c4c;
+    font-weight: bold;
+    border-bottom: 5px solid #0486CC;
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    background: -webkit-linear-gradient(45deg, #1182c3, #EB1B90, #14A3F5 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+</style>
+<div class="title5"><h1><center>Doxxim-Telbalarcha</center>
+</h1></div>
+<br>
+<br>
+<audio id="player" src="https://uzhack.ga/uz-music/doxxim/doxxim-telbalarcha.mp3"></audio>
+<a target="_blank" href="https://t.me/uzhackga"><img class="pl-playpausa1" style="width:35px" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/icon.prew.png" border="0" alt=""></a>
+ <img id="playpause" class="pl-playpausa" style="width:45px" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/icon.play.png"> 
+<script>
+var playing = false;
+playpause.addEventListener('click', function () {
+ if(!playing) {
+ document.getElementById('player').play();
+ this.src = 'http://moqina.net/icons/icon.pausa.png';
+ }
+ else {
+ document.getElementById('player').pause();
+ this.src = 'http://moqina.net/icons/icon.play.png';
+ }
+ playing = !playing;
+});</script>
+<a href="https://uzhack.ga/uz-music/doxxim"><img class="pl-playpausa1" style="width:35px" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/icon.next.png" border="0" alt=""></a>
+<br>
+
+</center></div><br><br><code>Made By Styles <a href="https://telegram.me/nurhack">@NurHack</a></code>
+<br>
+
+</center>
+	
+
+				<div class="blok1"> 
+				<div class="read">
+					
+					<center>UzHack.ga Styles by <a href="https://telegram.me/nurhack">@NurHack</a></center>
+				</div>
+			</div>
+		
+			<p></p><!-- /.read --> 
+
+		</font></div><font color="black">
+</font>
+<style>
+/*======mediani orab turuvchi element=======*/
+
+.media{
+
+	display: block;
+	position: relative;
+	display: block;
+	width: auto;
+	padding: 10px 0 20px 0;
+	margin: 0 auto;
+	border-radius: 5px;	
+	text-align: center;	
+	transition: all 0.5s ease;
+}
+
+
+.kb{
+	border-radius: 6px;
+	border:1px solid rgba(0,0,0,0.4);
+	/* box-shadow: 0 0 5px 2px rgba(0,0,0,0.2); */
+}
+
+
+</style>
+
+<div class="kb">
+
+			<div class="blok">
+				<div class="read"> <center>UzHack BlockPost</center></div>
+			</div><!-- /.blok -->
+
+			<div class="media">
+
+<a href="https://uzhack.ga/uz-music/zone-x" class="rasmlink"><img class="m" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/zone-x.jpg" alt="music"></a>	
+				
+
+				<a href="https://uzhack.ga/uz-music" class="rasmlink"><img class="m" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/uz-flag-post.jpg" alt="music"></a>	
+				
+
+				<a href="https://uzhack.ga/uz-music/russian-music" class="rasmlink"><img class="m" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/ru-flag-post.jpg" alt="music"></a>	
+				
+
+
+				<a href="https://uzhack.ga/uz-music/world-music/" class="rasmlink"><img class="m" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/app-world.jpg" alt="music"></a>
+
+
+
+                                <a href="https://uzhack.ga/uz-music/asia-music" class="rasmlink"><img class="m" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/app-asia.jpg" alt="music"></a>
+
+
+
+
+                                <a href="https://uzhack.ga/uz-music/dj" class="rasmlink"><img class="m" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/dj.jpg" alt="music"></a>
+
+
+
+
+
+
+
+			</div><!-- /.media -->
+
+
+
+			<div class="blok1"> 
+				<div class="read">
+					
+					<center>UzHack.ga Since 2020</center>
+				</div>
+			</div><!-- /.blok1 -->
+
+
+			<!-- /.kb --></div>
+
+<div class="shared">
+			UzHack.ga Development<br>
+			Barcha sertifikatlangan va litsenziyalashtirilgan huquqlar himoyalangan.<br>© UzHack.ga 2020<br>
+			Rasmiy ommabop sahifalarimiz:
+
+			<p align="center">
+
+		</p><div align="center" class="list1"><a href="https://m.youtube.com/"><img style="width: 30px; height: 30px; border-radius:5px; border: 1px solid red; text-align: center;" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/youtube.png"></a>&nbsp;<a href="https://m.facebook.com/uzhackgaofficial"><img style="width: 30px; height: 30px; border-radius:5px; border: 1px solid #0080FF; text-align: center;" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/facebook.png"></a>&nbsp;<a href="https://telegram.me/uzhackga"><img style="width: 30px; height: 30px; border-radius:50px; border: 1px solid #1180FF; text-align: center;" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/telegram_icon.png"></a>&nbsp;<a href="https://in.com/"><img style="width: 30px; height: 30px; border-radius:5px; border: 1px solid #0080FF; text-align: center;" src="./UzHack.ga Ilmiy _ Ommabop _ Mukammal _ Informatsion_files/in_icon.png" align="top"></a>&nbsp;</div>
+			<p></p>
+
+
+<center><br><br>
+
+<a href="https://uzhack.ga/hacker/#hacker"><button>👾 Hackermisiz ? 👾</button></a>
+</center>
+
+		</div>
+<style>
+@media only screen and (max-width: 1024px)
+.main-block {
+    color: #425156;
+    border-top: 0px solid #C4C6CA;
+    background-color: #fff;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin: 0px 10px 15px 10px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(33, 47, 61, 0.06);
+    box-shadow: 0px 3px 5px 0px rgba(33, 47, 61, 0.06);
+}
+</style>
+<style>
+.tgme_page_photo_image {
+  
+    border-radius: 61px;
+}
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+</style><style>element.style {
+}
+._dsga1837qa0j {
+    position: fixed;
+    top: -500px;
+    left: calc(50% - 245px);
+    background: #fff;
+    width: 490px;
+    border-radius: 3px;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+    background-color: #ffffff;
+    margin: auto;
+    max-width: calc(100vw - 40px);
+    transition: all 0.3s ease-in-out;
+    z-index: 2147483647 !important;
+    display: flex;
+    flex-direction: row;
+}
+<style>
+.anim__dsga1837qa0j {
+    top: 20px !important;
+}
+</style>
+
+
+
+
+
+<div class="_dsga1837qa0j pshsndr anim__dsga1837qa0j">
+				<div class="_dsga1837qa0j__inner">
+					<div class="_dsga1837qa0j__top">
+
+					  <div class="_dsga1837qa0j_bell"><svg viewBox="-20 0 512 512.00102" xmlns="http://www.w3.org/2000/svg"><path d="m426.492188 356.484375h-381.910157c17.5 0 27.394531-9.15625 33.011719-24.332031 27.167969-73.285156-45.199219-286.851563 157.949219-286.851563 203.144531 0 130.765625 213.566407 157.9375 286.851563 5.625 15.175781 15.523437 24.332031 33.011719 24.332031zm0 0" fill="#f7d360"></path><path d="m463.46875 393.457031c0 20.421875-16.558594 36.976563-36.976562 36.976563h-381.910157c-10.210937 0-19.457031-4.136719-26.148437-10.828125-6.691406-6.691407-10.828125-15.9375-10.828125-26.148438 0-20.417969 16.554687-36.972656 36.976562-36.972656h381.910157c10.210937 0 19.457031 4.136719 26.148437 10.828125s10.828125 15.9375 10.828125 26.144531zm0 0" fill="#e58e13"></path><path d="m393.480469 332.152344h-198.5c-21.398438 0-38.511719-17.714844-37.847657-39.105469 2.796876-90.5-11.636718-246.027344 76.921876-247.738281-243.09375 1.257812-87.699219 311.175781-189.46875 311.175781h381.90625c-17.488282 0-27.386719-9.15625-33.011719-24.332031zm0 0" fill="#e58e13"></path><path d="m463.46875 393.457031c0 20.421875-16.558594 36.976563-36.976562 36.976563h-275.0625c-10.207032 0-19.453126-4.136719-26.144532-10.828125-6.691406-6.691407-10.828125-15.9375-10.828125-26.148438 0-20.417969 16.554688-36.972656 36.972657-36.972656h275.0625c10.210937 0 19.457031 4.136719 26.148437 10.828125s10.828125 15.9375 10.828125 26.144531zm0 0" fill="#f7d360"></path><path d="m309.492188 430.433594c0 34.003906-22.945313 62.636718-54.179688 71.285156-6.296875 1.742188-12.925781 2.675781-19.769531 2.675781-40.851563 0-73.960938-33.113281-73.960938-73.960937zm0 0" fill="#e58e13"></path><path d="m305.914062 453.246094c-7.613281 23.5-26.675781 41.851562-50.601562 48.472656-15.042969-4.160156-28.160156-12.953125-37.722656-24.746094-7.707032-9.507812-.753906-23.726562 11.484375-23.726562zm0 0" fill="#f7d360"></path><path d="m273.125 48.128906c.082031-.933594.113281-1.875.113281-2.828125 0-20.816406-16.882812-37.695312-37.695312-37.695312-20.828125 0-37.695313 16.878906-37.695313 37.695312 0 .953125.027344 1.894531.109375 2.828125" fill="#e58e13"></path><path d="m426.492188 348.875h-.03125c-14.722657-.007812-23.035157-7.648438-27.792969-25.53125-4.863281-18.289062-5.027344-44.8125-5.199219-72.894531-.207031-34.023438-.441406-72.585938-8.898438-107.074219-1-4.078125-5.121093-6.574219-9.199218-5.574219-4.074219 1-6.570313 5.117188-5.574219 9.195313 8.035156 32.75 8.261719 70.363281 8.464844 103.546875.179687 29.078125.34375 56.542969 5.707031 76.707031 2.332031 8.769531 5.675781 15.976562 9.996094 21.625h-316.855469c4.320313-5.648438 7.664063-12.855469 9.996094-21.625 5.363281-20.164062 5.53125-47.628906 5.707031-76.707031.269531-44.394531.578125-94.710938 18.742188-133.21875 20.445312-43.347657 61-64.421875 123.984374-64.421875 34.589844 0 62.894532 6.5 84.125 19.324218 18.410157 11.117188 31.925782 26.917969 41.320313 48.304688 1.6875 3.84375 6.175781 5.59375 10.019531 3.902344 3.84375-1.6875 5.59375-6.171875 3.90625-10.019532-10.550781-24.015624-26.492187-42.589843-47.382812-55.207031-13.335938-8.054687-28.996094-13.863281-46.832032-17.402343-1.796874-23.347657-21.355468-41.804688-45.15625-41.804688-23.800781 0-43.363281 18.460938-45.148437 41.8125-17.015625 3.371094-32.058594 8.804688-44.96875 16.285156-20.773437 12.039063-36.796875 29.785156-47.625 52.738282-19.59375 41.542968-19.914063 93.644531-20.191406 139.613281-.171875 28.082031-.332031 54.605469-5.199219 72.894531-4.757812 17.882812-13.070312 25.523438-27.792969 25.53125h-.03125c-24.582031 0-44.582031 20-44.582031 44.585938 0 24.582031 20 44.582031 44.582031 44.582031h48.128907c4.199218 0 7.605468-3.40625 7.605468-7.605469s-3.40625-7.601562-7.605468-7.601562h-48.128907c-16.195312 0-29.375-13.179688-29.375-29.375 0-16.195313 13.175781-29.371094 29.371094-29.375h.003906.027344 381.851563.027343.007813c16.191406.003906 29.367187 13.179687 29.367187 29.375 0 16.195312-13.179687 29.375-29.375 29.375h-303.359375c-4.199218 0-7.601562 3.402343-7.601562 7.601562s3.402344 7.605469 7.601562 7.605469h31.214844c3.847656 41.421875 38.785156 73.957031 81.195312 73.957031 42.40625 0 77.34375-32.535156 81.191407-73.957031h109.761719c24.582031 0 44.582031-20 44.582031-44.582031 0-24.585938-20-44.585938-44.582031-44.585938zm-190.953126-333.667969c14.5625 0 26.742188 10.402344 29.503907 24.164063-9.335938-1.101563-19.164063-1.675782-29.503907-1.675782-10.339843 0-20.167968.570313-29.5 1.671876 2.761719-13.761719 14.9375-24.160157 29.5-24.160157zm0 481.585938c-34.015624 0-62.121093-25.734375-65.90625-58.75h131.808594c-3.785156 33.015625-31.890625 58.75-65.902344 58.75zm0 0"></path><path d="m357.632812 47.722656c.136719.074219 13.675782 7.800782 26.996094 25.75 17.84375 24.039063 26.886719 54.070313 26.886719 89.261719 0 4.199219 3.40625 7.605469 7.605469 7.605469 4.199218 0 7.605468-3.40625 7.605468-7.605469 0-48.445313-16.542968-80.601563-30.421874-99.042969-15.25-20.265625-30.644532-28.910156-31.292969-29.269531-3.667969-2.023437-8.269531-.695313-10.308594 2.960937-2.039063 3.660157-.722656 8.285157 2.929687 10.339844zm0 0"></path><path d="m415.003906 50.511719c1.222656.800781 29.96875 20.09375 29.96875 68.632812 0 4.199219 3.40625 7.601563 7.605469 7.601563s7.601563-3.402344 7.601563-7.601563c0-57.25-35.464844-80.480469-36.976563-81.441406-3.527344-2.246094-8.191406-1.207031-10.457031 2.3125-2.265625 3.515625-1.246094 8.210937 2.257812 10.496094zm0 0"></path><path d="m51.949219 170.339844c4.199219 0 7.605469-3.40625 7.605469-7.605469 0-35.191406 9.046874-65.222656 26.886718-89.261719 13.238282-17.835937 26.695313-25.578125 26.992188-25.75 3.660156-2.035156 4.988281-6.652344 2.960937-10.320312-2.035156-3.675782-6.660156-5.007813-10.335937-2.980469-.648438.359375-16.042969 9.003906-31.292969 29.269531-13.875 18.441406-30.417969 50.597656-30.417969 99.042969 0 4.199219 3.402344 7.605469 7.601563 7.605469zm0 0"></path><path d="m18.496094 126.746094c4.199218 0 7.601562-3.402344 7.601562-7.601563 0-48.5 28.703125-67.804687 29.96875-68.628906 3.515625-2.261719 4.546875-6.945313 2.300782-10.476563-2.253907-3.542968-6.953126-4.585937-10.5-2.332031-1.507813.960938-36.976563 24.1875-36.976563 81.4375 0 4.199219 3.40625 7.601563 7.605469 7.601563zm0 0"></path></svg></div>
+					    <div class="_dsga1837qa0j__text">
+
+					        <div class="_dsga1837qa0j__header">
+					            Please allow moqina.net notifications. Important news, juicy offers and premium lotteries guaranteed.
+					        </div>
+
+					        <div class="_dsga1837qa0j__desc">
+					        </div>
+					    </div>
+					</div>
+          <div class="_dsga1837qa0j__buttons mobile">
+						<button type="button" class="_dsga1837qa0j__button button__white" id="_dsga1837qa0j_cancel">Block</button>
+            <button type="button" class="_dsga1837qa0j__button" id="_dsga1837qa0j_approve">Allow</button>
+          </div>
+				</div></div>
+
+
+</div></div></nav></font></body></html>
